@@ -82,6 +82,15 @@
   .menu__logo img {
     height: 100%;
   }
+
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+  }
+
   
   #nav__checkbox:checked ~ ul.nav__menu li {
     display: block;
