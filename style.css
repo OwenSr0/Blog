@@ -53,6 +53,7 @@
     gap: 2rem;
     align-items: center;
     margin: 1rem;
+    justify-content: space-between;
   }
   
   .nav__menu li {
@@ -83,14 +84,29 @@
     height: 100%;
   }
 
-  .nav__menu {
+  .nav__menu_right {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
     margin: 1rem;
   }
-
+  
+  .nav__menu_right li {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav__menu_right li:first-child {
+    margin-right: auto;
+    display: block;
+  }
+  
+  .nav__menu_right a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+  }
   
   #nav__checkbox:checked ~ ul.nav__menu li {
     display: block;
@@ -121,3 +137,4 @@
  p {
     color: red;
  }
+ 
