@@ -21,6 +21,8 @@
   .nav {
     border-bottom: 1px solid var(--gray);
   }
+
+  .nav{position:relative;z-index:100;display:flex;justify-content:space-between;align-items:flex-start;overflow:hidden;height:64px;font-size:1.3rem}
   
   .nav__toggle {
     position: absolute;
@@ -53,7 +55,6 @@
     gap: 2rem;
     align-items: center;
     margin: 1rem;
-    justify-content: space-between;
   }
   
   .nav__menu li {
@@ -97,7 +98,7 @@
     display: none;
   }
   
-  .nav__menu_right li:first-child {
+  .nav__menu_right li {
     margin-right: auto;
     display: block;
   }
@@ -137,4 +138,5 @@
  p {
     color: red;
  }
+ 
  
