@@ -9,9 +9,11 @@ html{
 body{
     height: 100%;
     background-color: #FFF5EE;
-
 }
-
+main{
+    height: 100%;
+}
+    /*HEADER -------------------------------------------*/
 header{
     background: linear-gradient(#f2e8df , #e6dcd3);
     border-bottom: 2px solid #d9d0c7;
@@ -24,31 +26,26 @@ header{
     justify-content: space-between;
 }
 
-.left-header,.right-header{
-    display: flex;
-    align-items: center;
-}
-
 #logo{
     height: 4em;
     width: 4em;
     margin-left:3%;
 }
 
-
-#tittle{
-    color: #000000;
-    padding: 1%;
-    margin-left:0.5%;
-    font-size: 3.5em;
-    font-family: cursive;
-    text-shadow: 2px 2px #66605c;
+.nav_checkbox{
+    display: none;
 }
 
 #winks{
     padding: 1em;
 }
-
+/*.right-header li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2em;
+    padding: 1em;
+}*/
 #wink0,#wink1,#wink2{
     color: #000000;
     text-decoration: none;
@@ -63,3 +60,36 @@ header{
 #wink0:active,#wink1:active,#wink2:active {
     color: #FFFFFF;
   }
+    /*Body -------------------------*/
+
+.section0{
+    display: flex;
+    justify-content: center;
+}
+
+.maintittle{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+}
+#tittle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3.5em;
+    padding: 3px;
+    font-family: cursive;
+    text-shadow: 2px 2px #66605c;
+}
+
+#subtittle{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    padding: 1em;
+    color: white;
+}
