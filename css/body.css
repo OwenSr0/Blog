@@ -1,0 +1,36 @@
+.body {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Helvetica, sans-serif;
+    grid-template-areas: 
+        "header"
+        "contenido"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto; 
+}
+.contenido {
+    grid-area: contenido;
+    padding: 0 2rem;
+}
+
+.rodapie { 
+    background: #fdfdfd;
+    color: #333333;
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+@media  only screen and (min-width: 600px) {
+.body {
+    grid-template-rows: 60px auto auto; 
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .body {
+        grid-template-rows: 65px auto auto; 
+        }
+    }
