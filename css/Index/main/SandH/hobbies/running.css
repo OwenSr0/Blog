@@ -1,0 +1,10 @@
+#main__SandH__hobbies__running {
+    background-image: url(../../../../../img/SandH/Hobbies/running.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    width: 9rem;
+    height: 9rem;
+}

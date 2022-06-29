@@ -1,0 +1,11 @@
+#main__about__sign {
+    background-image: url(../../../../img/sign.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 1rem;
+    margin: 0 0 0 1rem;
+    width: 8.5rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+}
