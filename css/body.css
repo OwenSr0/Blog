@@ -4,14 +4,10 @@
     font-family: Helvetica, sans-serif;
     grid-template-areas: 
         "header"
-        "contenido"
+        "main"
         "footer";
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto; 
-}
-.contenido {
-    grid-area: contenido;
-    padding: 0 2rem;
 }
 
 .rodapie { 

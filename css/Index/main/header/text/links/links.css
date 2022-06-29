@@ -1,0 +1,11 @@
+.main__header__text__links ul {
+    display: flex;
+}
+.main__header__text__links ul li {
+    display: flex;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.main__header__text__links a {
+    color: #505050;
+    text-decoration: none;
+}
