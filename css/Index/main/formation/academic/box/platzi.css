@@ -1,0 +1,9 @@
+#main__formation__academic__box__platzi {
+    background-image: url(../../../../../../img/formation/platzi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 19rem;
+    height: 9.5rem;
+    border-radius: 1.5rem;
+}

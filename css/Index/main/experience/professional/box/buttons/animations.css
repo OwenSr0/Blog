@@ -1,0 +1,9 @@
+.main__experience__professional__box__buttons__first:hover, .main__experience__professional__box__buttons__second:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.main__experience__professional__box__buttons__first:active, .main__experience__professional__box__buttons__second:active {
+    transition: 1s;
+    transform: scale(0.5);
+}

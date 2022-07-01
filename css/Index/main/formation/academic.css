@@ -1,0 +1,6 @@
+.main__formation__academic {
+    justify-content: space-around;
+    display: grid;  
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto; 
+}

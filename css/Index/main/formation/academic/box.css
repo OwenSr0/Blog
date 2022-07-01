@@ -1,0 +1,5 @@
+.main__formation__academic__box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

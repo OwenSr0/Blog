@@ -1,0 +1,13 @@
+.main__experience__professional__box__buttons__second {
+    margin: 0 1rem 1.5rem 2rem;
+    width: 7rem;
+    height: 2.6rem;
+    background-color: #2A7AE4;
+    border-radius: 0.5rem;
+    }
+    
+.main__experience__professional__box__buttons__second p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
