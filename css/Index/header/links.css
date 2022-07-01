@@ -1,0 +1,22 @@
+.header__links{
+    display: none;
+}
+
+@media  only screen and (min-width: 950px) {
+    .header__links {
+        display: flex;
+    }
+    .header__links__list a {
+
+        color: #505050;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    .header__links__list a:first-child {
+        display: none;
+    }
+
+}
+    

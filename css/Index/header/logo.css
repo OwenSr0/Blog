@@ -1,0 +1,15 @@
+#header__logo {
+    background-image: url(../../../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media  only screen and (min-width: 600px) {
+    #header__logo {
+        width: 3rem;
+        height: 3rem;
+    }
+}
