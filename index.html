@@ -60,17 +60,28 @@
 
     <link rel="stylesheet" href="./css/Index/main/experience.css">
     <link rel="stylesheet" href="./css/Index/main/experience/tittle.css">
-    
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/first.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/second.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/animations.css">
-
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/img.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/img/encrypter.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/img/hangman.css">
-
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/text/main.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/text/sub.css">
+
+    <link rel="stylesheet" href="./css/Index/main/contact.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/tittle.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/sub.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/button.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/box/textarea.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/box/textarea/box.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/box/textarea/name.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/box/message.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/box/message/box.css">
+    
+    <link rel="stylesheet" href="./css/Index/footer.css">
+    <link rel="stylesheet" href="./css/Index/footer/by.css">
+
 </head>
 <body class="body">
     <header class="header">
@@ -156,7 +167,7 @@
                 <div class="main__formation__academic__box">
                     <div id="main__formation__academic__box__udg"></div>
                     <div class="main__formation__academic__box__info">
-                        <p class="main__formation__academic__box__info__main">Computer science</p>
+                        <p class="main__formation__academic__box__info__main">Ing. Computer science</p>
                         <p class="main__formation__academic__box__info__sub">2021 - Now</p>
                     </div>
                 </div>
@@ -186,8 +197,8 @@
                         <p class="main__experience__professional__box__text__sub">Challenge Oracle</p>
                     </div>
                     <div class="main__experience__professional__box__buttons">
-                        <button class="main__experience__professional__box__buttons__first"><p>Repository</p></button>
-                        <button class="main__experience__professional__box__buttons__second"><p>Go</p></button>
+                        <button onclick="window.open('https://github.com/OwenSr0/hangman')" class="main__experience__professional__box__buttons__first"><p>Repository</p></button>
+                        <button onclick="window.open('https://owensr0.github.io/hangman')" class="main__experience__professional__box__buttons__second"><p>Go</p></button>
                     </div>
                 </div>
                 <div class="main__experience__professional__box">
@@ -197,13 +208,42 @@
                         <p class="main__experience__professional__box__text__sub">Challenge Oracle</p>
                     </div>
                     <div class="main__experience__professional__box__buttons">
-                        <button class="main__experience__professional__box__buttons__first"><p>Repository</p></button>
-                        <button class="main__experience__professional__box__buttons__second"><p>Go</p></button>
+                        <button onclick="window.open('https://github.com/OwenSr0/Encrypter-Decrypter')" class="main__experience__professional__box__buttons__first"><p>Repository</p></button>
+                        <button onclick="window.open('https://owensr0.github.io/Encrypter-Decrypter/')" class="main__experience__professional__box__buttons__second"><p>Go</p></button>
                     </div>
                 </div>
             </nav>
         </section>
-
+        <section class="main__contact">
+            <h2 class="main__contact__tittle">Contact</h2>
+            <p class="main__contact__sub">Follow the next form</p>
+            <nav class="main__contact__box">
+                <div class="main__contact__box__textarea">
+                    <p class="main__contact__box__textarea__name">Name</p>
+                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                </div>
+                <div class="main__contact__box__textarea">
+                    <p class="main__contact__box__textarea__name">E-mail</p>
+                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                </div>
+                <div>
+                <div class="main__contact__box__textarea">
+                    <p class="main__contact__box__textarea__name">Subject</p>
+                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                </div>
+                <div class="main__contact__box__message">
+                    <p class="main__contact__box__textarea__name">Message</p>
+                    <textarea class="main__contact__box__message__box" cols="5" rows="1" required placeholder="here"></textarea>
+                </div>
+            </nav>
+            <button class="main__contact__button"><p>Send the message</p></button>
+        </section>
     </main>
+    <footer class="footer">
+    	<span id="footer__by">
+            By OwenB &copy; 2022 
+            </span>
+    </footer>
+   
 </body>
 </html>

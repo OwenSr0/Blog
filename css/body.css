@@ -10,15 +10,6 @@
     grid-template-rows: 50px auto auto; 
 }
 
-.rodapie { 
-    background: #fdfdfd;
-    color: #333333;
-    grid-area: footer;
-    padding: 1rem;
-    text-align: center;
-    
-}
-
 @media  only screen and (min-width: 600px) {
 .body {
     grid-template-rows: 60px auto auto; 
@@ -29,4 +20,4 @@
     .body {
         grid-template-rows: 65px auto auto; 
         }
-    }
+}

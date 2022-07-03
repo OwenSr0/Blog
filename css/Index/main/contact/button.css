@@ -1,0 +1,24 @@
+.main__contact__button {
+    margin: 0 1rem 1.5rem 2rem;
+    width: 12rem;
+    height: 2.6rem;
+    background-color: #2A7AE4;
+    border-radius: 0.5rem;
+    border: none;
+    }
+    
+.main__contact__button p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.main__contact__button:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.main__contact__button:active {
+    transition: 1s;
+    transform: scale(0.5);
+}
