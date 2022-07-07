@@ -9,3 +9,9 @@
     color: #505050;
     text-decoration: none;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__header__text__links a {
+        font-size: 1.2rem;
+    }
+}

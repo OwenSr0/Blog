@@ -1,3 +1,17 @@
 .main__header__text {
     display: block;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__header__text {
+        display: block;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__header__text {
+        display: block;
+        margin: 8rem 2rem 10rem 22.5rem;
+    }
+}

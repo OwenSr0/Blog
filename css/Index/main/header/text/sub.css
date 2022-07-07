@@ -6,3 +6,18 @@
     font-size: 1.16rem;
     color:#2A2A2A;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__header__text__sub {
+        margin: 1rem 0 0.5rem 0;
+        font-size: 1.25rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__header__text__sub {
+        margin: 0.5rem 0 0.5rem 0;
+        font-size: 2rem;
+        width: 100rem;
+    }
+}

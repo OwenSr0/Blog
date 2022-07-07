@@ -6,3 +6,10 @@
     width: 1rem;
     height: 1rem;
 }
+
+@media  only screen and (min-width: 600px) {
+    #main__header__text__links__arrow {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
