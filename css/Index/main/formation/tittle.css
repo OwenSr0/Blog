@@ -7,3 +7,16 @@
     font-size: 1.5rem;
     color: #313131;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__formation__tittle {
+        font-size: 1.8rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__formation__tittle {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+}

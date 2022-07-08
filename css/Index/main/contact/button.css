@@ -13,6 +13,26 @@
     color: #FFFFFF;
 }
 
+@media  only screen and (min-width: 600px) {
+    .main__contact__button {
+        width: 16rem;
+        height: 3rem;
+    }
+    .main__contact__button p {
+        font-size: 1.3rem;
+        }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__contact__button {
+        width: 20rem;
+        height: 4rem;
+    }
+    .main__contact__button p {
+        font-size: 1.6rem;
+    }
+}
+
 .main__contact__button:hover {
     transition: 1s;
     transform: scale(1.05);
@@ -22,3 +42,4 @@
     transition: 1s;
     transform: scale(0.5);
 }
+

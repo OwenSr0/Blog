@@ -2,3 +2,11 @@
     background: #EAF2FD;
     border-radius: 1.5rem;
 }
+
+@media  only screen and (min-width: 900px) {
+    .main__formation {
+        padding: 5rem;
+        margin: 5rem 20rem 5rem 20rem;
+        border-radius: 3rem;
+    }
+}

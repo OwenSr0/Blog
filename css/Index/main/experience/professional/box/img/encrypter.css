@@ -7,3 +7,18 @@
     height: 9.5rem;
     border-radius: 1.5rem;
 }
+
+@media  only screen and (min-width: 600px) {
+    #main__experience__professional__box__img__encrypter {
+        width: 44em;
+        height: 22rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    #main__experience__professional__box__img__encrypter {
+        width: 120em;
+        height: 60rem;
+    }
+}
+

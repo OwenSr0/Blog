@@ -1,5 +1,8 @@
 :root {
+    --main--formation--academic--box--img--height: 20rem;
+    --main--formation--academic--box--img--width: 40rem;
 
+    
 }
 
 
@@ -9,5 +12,13 @@ background-image: url(path);
 background-repeat: no-repeat;
 width: 10px;
 height: 20px;
+}
+
+:root {
+  --main-bg-color: pink;
+}
+
+body {
+  background-color: var(--main-bg-color);
 }
 */

@@ -6,3 +6,8 @@
     font-size: 0.8rem;
     color: #505050;
 }
+@media  only screen and (min-width: 900px) {
+    .main__contact__box__textarea__name {
+        font-size: 1.2rem;
+    }
+}

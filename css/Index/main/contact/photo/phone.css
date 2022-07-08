@@ -1,0 +1,15 @@
+#main__contact__photo__phone {
+    display: none;
+}
+@media  only screen and (min-width: 900px) {
+    #main__contact__photo__phone {
+        display: block;
+        background-image: url(../../../../../img/contact.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5rem;
+        width: 40rem;
+        height: 50rem;
+    }
+}

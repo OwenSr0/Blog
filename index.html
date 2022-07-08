@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/root.css">
     <link rel="stylesheet" href="./css/body.css">
 
     <link rel="stylesheet" href="./css/Index/header.css">
@@ -21,6 +22,7 @@
 
     <link rel="stylesheet" href="./css/Index/main/header/text/main.css">
     <link rel="stylesheet" href="./css/Index/main/header/text/sub.css">
+    <link rel="stylesheet" href="./css/Index/main/header/text/links/animations.css">
     <link rel="stylesheet" href="./css/Index/main/header/text/links/links.css">
     <link rel="stylesheet" href="./css/Index/main/header/text/links/arrow.css">
 
@@ -32,6 +34,8 @@
     <link rel="stylesheet" href="./css/Index/main/SandH.css">
     <link rel="stylesheet" href="./css/Index/main/SandH/grid.css">
     <link rel="stylesheet" href="./css/Index/main/SandH/tittle.css">
+    <link rel="stylesheet" href="./css/Index/main/SandH/hobbies.css">
+    <link rel="stylesheet" href="./css/Index/main/SandH/skills.css">
 
     <link rel="stylesheet" href="./css/Index/main/SandH/hobbies/books.css">
     <link rel="stylesheet" href="./css/Index/main/SandH/hobbies/box.css">
@@ -61,6 +65,7 @@
 
     <link rel="stylesheet" href="./css/Index/main/experience.css">
     <link rel="stylesheet" href="./css/Index/main/experience/tittle.css">
+    <link rel="stylesheet" href="./css/Index/main/experience/professional/box/align.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/first.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/second.css">
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/buttons/animations.css">
@@ -71,9 +76,12 @@
     <link rel="stylesheet" href="./css/Index/main/experience/professional/box/text/sub.css">
 
     <link rel="stylesheet" href="./css/Index/main/contact.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/text.css">
     <link rel="stylesheet" href="./css/Index/main/contact/tittle.css">
     <link rel="stylesheet" href="./css/Index/main/contact/sub.css">
     <link rel="stylesheet" href="./css/Index/main/contact/button.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/photo.css">
+    <link rel="stylesheet" href="./css/Index/main/contact/photo/phone.css">
     <link rel="stylesheet" href="./css/Index/main/contact/box/textarea.css">
     <link rel="stylesheet" href="./css/Index/main/contact/box/textarea/box.css">
     <link rel="stylesheet" href="./css/Index/main/contact/box/textarea/name.css">
@@ -149,7 +157,7 @@
                     <div id="main__SandH__skills__react"></div>
                 </div>
             </nav>
-            <nav class="main__SandH">
+            <nav class="main__SandH__hobbies">
                 <div class="main__SandH__tittle"><h2>Hobbies</h2></div>
                 <div class="main__SandH__grid">
                     <div id="main__SandH__hobbies__running"></div>
@@ -216,28 +224,32 @@
             </nav>
         </section>
         <section class="main__contact">
-            <h2 class="main__contact__tittle">Contact</h2>
-            <p class="main__contact__sub">Follow the next form</p>
-            <nav class="main__contact__box">
-                <div class="main__contact__box__textarea">
-                    <p class="main__contact__box__textarea__name">Name</p>
-                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
-                </div>
-                <div class="main__contact__box__textarea">
-                    <p class="main__contact__box__textarea__name">E-mail</p>
-                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
-                </div>
-                <div>
-                <div class="main__contact__box__textarea">
-                    <p class="main__contact__box__textarea__name">Subject</p>
-                    <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
-                </div>
-                <div class="main__contact__box__message">
-                    <p class="main__contact__box__textarea__name">Message</p>
-                    <textarea class="main__contact__box__message__box" cols="5" rows="1" required placeholder="here"></textarea>
-                </div>
+            <nav class="main__contact__photo"><div id="main__contact__photo__phone"></div></nav>
+            <nav class="main__contact__text">
+                <h2 class="main__contact__tittle">Contact</h2>
+                <p class="main__contact__sub">Follow the next form</p>
+                <nav class="main__contact__box">
+                    <div class="main__contact__box__textarea">
+                       <p class="main__contact__box__textarea__name">Name</p>
+                        <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                    </div>
+                     <div class="main__contact__box__textarea">
+                        <p class="main__contact__box__textarea__name">E-mail</p>
+                        <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                    </div>
+                    <div>
+                    <div class="main__contact__box__textarea">
+                        <p class="main__contact__box__textarea__name">Subject</p>
+                        <textarea class="main__contact__box__textarea__box" cols="5" rows="1" required placeholder="here"></textarea>
+                    </div>
+                    <div class="main__contact__box__message">
+                        <p class="main__contact__box__textarea__name">Message</p>
+                        <textarea class="main__contact__box__message__box" cols="5" rows="1" required placeholder="here"></textarea>
+                    </div>
+                    <button class="main__contact__button"><p>Send the message</p></button>
+                </nav>
+                
             </nav>
-            <button class="main__contact__button"><p>Send the message</p></button>
         </section>
     </main>
     <footer class="footer">

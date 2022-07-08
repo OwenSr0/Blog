@@ -12,3 +12,18 @@
     font-size: 1.2rem;
     color: #FFFFFF;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__experience__professional__box__buttons__second {
+        width: 10rem;
+        height: 4rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__experience__professional__box__buttons__second {
+        margin-left: 0;
+        width: 14rem;
+        height: 6rem;
+    }
+}

@@ -1,8 +1,22 @@
 .main__experience__professional__box__text__main {
     text-align: left;
     font-style: normal;
-    margin: 0.5rem 0 0 1.5rem;
+    margin: 1rem 0 0 1.5rem;
     font-weight: 700;
     font-size: 1.1rem;
     color: #313131;
+}
+
+@media  only screen and (min-width: 600px) {
+    .main__experience__professional__box__text__main {
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__experience__professional__box__text__main {
+        margin-left: 0;
+        font-size: 2rem;
+    }
 }

@@ -6,3 +6,10 @@
     font-size: 1.2rem;
     border: none;
 }
+
+@media  only screen and (min-width: 900px) {
+    .main__contact__box__textarea__box {
+        height: 2.5rem;
+        font-size: 1.8rem;
+    }
+}

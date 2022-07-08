@@ -1,0 +1,5 @@
+.main__header__text__links a:hover {
+    color: black;
+    transition: 1s;
+    transform: scale(1.1);
+}

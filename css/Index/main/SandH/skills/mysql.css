@@ -8,3 +8,10 @@
     width: 9rem;
     height: 9rem;
 }
+
+@media  only screen and (min-width: 900px) {
+    #main__SandH__skills__mysql {
+        width: 12rem;
+        height: 12rem;
+    }
+}

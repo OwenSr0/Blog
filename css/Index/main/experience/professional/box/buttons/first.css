@@ -6,13 +6,25 @@ border: 1px solid #2A7AE4;
 border-radius: 0.5rem;
 }
 
-.main__experience__professional__box__buttons__first:hover {
-    transition: 1s;
-    transform: scale(1.05);
-}
-
 .main__experience__professional__box__buttons__first p {
     font-weight: 500;
     font-size: 1.2rem;
     color: #2A7AE4;
+}
+
+@media  only screen and (min-width: 600px) {
+    .main__experience__professional__box__buttons__first {
+        margin-left: 3rem;
+        width: 10rem;
+        height: 4rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__experience__professional__box__buttons__first {
+        margin-left: 0;
+        margin-right: 4rem;
+        width: 14rem;
+        height: 6rem;
+    }
 }

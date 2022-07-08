@@ -6,3 +6,18 @@
     font-size: 0.95rem;
     color: #313131;
 }
+
+@media  only screen and (min-width: 600px) {
+    .main__experience__professional__box__text__sub {
+        margin-left: 3rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media  only screen and (min-width: 900px) {
+    .main__experience__professional__box__text__sub {
+        margin-left: 0;
+    font-size: 2rem;
+    }
+}
+

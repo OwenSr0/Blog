@@ -7,3 +7,11 @@
     height: 9.5rem;
     border-radius: 1.5rem;
 }
+
+@media  only screen and (min-width: 900px) {
+    #main__formation__academic__box__one {
+        width: var(--main--formation--academic--box--img--width);
+        height: var(--main--formation--academic--box--img--height);
+        border-radius: 3rem;
+    }
+}
