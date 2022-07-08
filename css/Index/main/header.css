@@ -1,6 +1,17 @@
 @media  only screen and (min-width: 600px) {
     .main__header {
         display: flex;
+        margin: 1rem 1rem 1rem 1rem;
     }
 }
 
+@media  only screen and (min-width: 900px) {
+    .main__header {
+        justify-content: center;
+        margin: 5rem 0 5rem 0;
+    }
+}
+@media  only screen and (min-width: 1300px) {
+    .main__header {
+    }
+}

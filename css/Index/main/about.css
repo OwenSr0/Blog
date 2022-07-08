@@ -5,8 +5,12 @@
 
 @media  only screen and (min-width: 900px) {
     .main__about {
-        padding: 5rem;
-        margin: 5rem 20rem 0 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4vh;
+        width: 75%;
+        margin: 0 0 0 0;
         border-radius: 3rem;
     }
 }

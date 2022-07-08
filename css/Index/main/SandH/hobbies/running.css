@@ -9,6 +9,12 @@
     height: 9rem;
 }
 
+@media  only screen and (min-width: 600px) {
+    #main__SandH__hobbies__running {
+        margin: 1rem 1rem 1rem 0;
+    }
+}
+
 @media  only screen and (min-width: 900px) {
     #main__SandH__hobbies__running {
         width: 12rem;

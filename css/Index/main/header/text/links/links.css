@@ -18,6 +18,12 @@
 
 @media  only screen and (min-width: 900px) {
     .main__header__text__links a {
+        font-size: 1.35rem;
+    }
+}
+
+@media  only screen and (min-width: 1300px) {
+    .main__header__text__links a {
         font-size: 1.5rem;
     }
 }

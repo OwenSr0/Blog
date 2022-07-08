@@ -4,13 +4,20 @@
     background-size: cover;
     background-position: center;
     border-radius: 1.5rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 1rem 1rem 0;
     width: 9rem;
     height: 9rem;
 }
 
+@media  only screen and (min-width: 600px) {
+    #main__SandH__hobbies__books {
+        margin: 1rem 1rem 1rem 0;
+    }
+}
+
 @media  only screen and (min-width: 900px) {
     #main__SandH__hobbies__books {
+        margin: 1rem 0 1rem 0;
         width: 12rem;
         height: 12rem;
     }

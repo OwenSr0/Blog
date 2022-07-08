@@ -4,9 +4,3 @@
     font-size: 1.13rem;
     color:#2A2A2A;
 }
-
-@media  only screen and (min-width: 900px) {
-    #footer__by {
-        font-size: 1.5rem;
-    }
-}

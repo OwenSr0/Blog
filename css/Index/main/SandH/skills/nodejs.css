@@ -11,6 +11,7 @@
 
 @media  only screen and (min-width: 900px) {
     #main__SandH__skills__nodejs {
+        margin: 1rem 1rem 1rem 0;
         width: 12rem;
         height: 12rem;
     }

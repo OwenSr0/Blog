@@ -16,6 +16,13 @@
 
 @media  only screen and (min-width: 900px) {
     #main__header__text__links__arrow {
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+}
+
+@media  only screen and (min-width: 1300px) {
+    #main__header__text__links__arrow {
         width: 1.5rem;
         height: 1.5rem;
     }

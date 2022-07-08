@@ -12,22 +12,20 @@
 
 @media  only screen and (min-width: 600px) {
     #main__header__photo {
-        width: 25rem;
+        width: 12rem;
         height: 10rem;
-        border-radius: 5rem;
+        border-radius: 10rem;
         order: 1;
-        margin: 2rem 0rem 0rem 0;
+        margin: 1rem 0rem 0rem 0;
     }
-
 }
 
 @media  only screen and (min-width: 900px) {
     #main__header__photo {
-        width: 30rem;
-        height: 30rem;
-        border-radius: 15rem;
+        width: 24rem;
+        height: 20rem;
+        border-radius: 4rem;
         order: 1;
-        margin: 2rem 0rem 0rem 0;
+        margin: -1rem 0 0 0;
     }
-
 }
